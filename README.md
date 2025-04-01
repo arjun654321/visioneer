@@ -14,6 +14,40 @@ Currently the model has limitations due to the current dataset and accuracy, it 
 - **Future Enhancements:** Additional plant classes will be added in future updates, and the accuracy of predictions will be improved by expanding the dataset.
 
 
+### Prerequisites
+
+- Python 3.9 ( Strictly )
+- TensorFlow
+- OpenCV
+- Streamlit
+- Numpy
+
+
 ## Installation
 
 To run this project locally, you'll need to have Python installed along with the required libraries. 
+Steps:
+
+1. **Clone the repository or download zip**
+
+2. **pip install -r requirements.txt**
+
+3. **Ensure you have ml model saved in project directory**
+
+4. **Run application**  
+   ```bash
+   streamlit run app.py
+
+
+## This code deployed here (test here): 
+[https://visioneer-megrb6lbcgmz9ipqc86jnv.streamlit.app/](https://visioneer-megrb6lbcgmz9ipqc86jnv.streamlit.app/)
+
+
+## Dataset Source : 
+[https://data.mendeley.com/datasets/748f8jkphb/3](https://data.mendeley.com/datasets/748f8jkphb/3)
+
+
+## Model 
+
+The model used for plant identification is a deep learning model built using TensorFlow's Keras API. It is trained on a dataset of 40 medicinal plant species and predicts the plant's class based on the uploaded image. The model returns predictions along with a confidence score, and further information about the plant is displayed.
+
