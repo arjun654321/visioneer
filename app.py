@@ -74,7 +74,7 @@ def predict_image_with_confidence(image, confidence_threshold=0.6):
 
 
 st.title('Indian Medicinal Plant Detection')
-st.subheader("(Use Aloevera Image for Better Accuracy Prediction)")
+
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 st
 if uploaded_image is not None:
